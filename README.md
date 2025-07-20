@@ -2,7 +2,30 @@
 
 <div align="center">
   <img src="Imagens/CA_AiDAPT01_P1_Visualizacao_Dashboard_1.png" alt="Dashboard HR Analytics" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 100%;" />
+  
+  <p>
+    <img src="https://img.shields.io/badge/Status-Concluído-success?style=for-the-badge" alt="Status: Concluído" />
+    <img src="https://img.shields.io/badge/Licença-Educacional-blue?style=for-the-badge" alt="Licença: Educacional" />
+    <img src="https://img.shields.io/badge/Versão-1.0-informational?style=for-the-badge" alt="Versão: 1.0" />
+  </p>
 </div>
+
+## 📑 Índice
+
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Objetivos](#-objetivos)
+- [Principais Insights](#-principais-insights)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Metodologia](#-metodologia)
+- [Análises Realizadas](#-análises-realizadas)
+- [Visualizações e Dashboards](#-visualizações-e-dashboards)
+- [Documentos do Projeto](#-documentos-do-projeto)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Estrutura de Diretórios](#-estrutura-de-diretórios)
+- [Como Utilizar](#-como-utilizar)
+- [Conclusões Principais](#-conclusões-principais)
+- [Equipa](#-equipa)
+- [Licença](#-licença)
 
 ## 📊 Sobre o Projeto
 
@@ -15,6 +38,23 @@ Este projeto de HR Analytics tem como objetivo analisar os fatores que influenci
 - Criar modelos preditivos para antecipar possíveis saídas de talentos
 - Fornecer recomendações baseadas em dados para melhorar a retenção de talentos
 - Desenvolver dashboards interativos para monitorização contínua de métricas de RH
+
+## 💡 Principais Insights
+
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 20px 0;">
+  <div style="flex: 0 0 30%; background-color: #f0f7ff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px; text-align: center;">
+    <h3>🔍 Fatores de Atrito</h3>
+    <p>Horas extraordinárias aumentam em <b>3x</b> a probabilidade de saída</p>
+  </div>
+  <div style="flex: 0 0 30%; background-color: #fff0f0; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px; text-align: center;">
+    <h3>📊 Departamentos</h3>
+    <p>Vendas e TI apresentam <b>25%</b> mais rotatividade que outros departamentos</p>
+  </div>
+  <div style="flex: 0 0 30%; background-color: #f0fff0; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px; text-align: center;">
+    <h3>⏱️ Tempo na Empresa</h3>
+    <p>Funcionários sem promoção após <b>2 anos</b> têm maior risco de saída</p>
+  </div>
+</div>
 
 ## 📋 Estrutura do Projeto
 
@@ -51,6 +91,22 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   <img src="Imagens/CA_AiDAPT01_P1_Dicionario_Dados.png" alt="Dicionário de Dados" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 100%;" />
 </div>
 </details>
+
+## � Metlodologia
+
+<div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <p>Este projeto seguiu uma metodologia estruturada de análise de dados para recursos humanos:</p>
+  
+  <ol>
+    <li><strong>Recolha e Preparação de Dados</strong>: Extração de dados de RH de múltiplas fontes, limpeza e normalização</li>
+    <li><strong>Análise Exploratória</strong>: Identificação de padrões, correlações e outliers nos dados</li>
+    <li><strong>Modelação Estatística</strong>: Aplicação de técnicas de regressão e classificação para identificar fatores de atrito</li>
+    <li><strong>Visualização</strong>: Criação de dashboards interativos para comunicar resultados</li>
+    <li><strong>Recomendações</strong>: Desenvolvimento de estratégias baseadas em dados para reduzir o atrito</li>
+  </ol>
+  
+  <p>A análise foi realizada utilizando SQL para consultas complexas, R para análise estatística avançada e Power BI para visualizações interativas.</p>
+</div>
 
 ## 🔍 Análises Realizadas
 
@@ -232,6 +288,10 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
 ## 📄 Licença
 
 Este projeto é para fins educacionais e de demonstração.
+
+<div style="background-color: #f8f8f8; padding: 15px; border-radius: 8px; margin: 20px 0; font-size: 0.9em;">
+  <p><strong>Nota:</strong> Os dados utilizados neste projeto foram anonimizados e modificados para proteger informações sensíveis. Qualquer semelhança com dados reais é mera coincidência.</p>
+</div>
 
 ---
 
