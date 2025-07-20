@@ -1,0 +1,99 @@
+Create Database C00_Projecto
+criar coleção "Colaboradores" 
+Inserir os Dados da Linha 2 e 3 do excel p ex
+Insert document
+{
+  "JobInvolvement": 2,
+  "JobSatisfaction": 2,
+  "EnvironmentSatisfaction": 3,
+  "RelationshipSatisfaction": 4,
+  "PerformanceRating": 4,
+  "WorkLifeBalance": 3,
+  "TrainingTimesLastYear": 3,
+  "YearsInCurrentRole": 7,
+  "YearsSinceLastPromotion": 1,
+  "YearsWithCurrManager": 7
+}
+SHELL
+MongoDB Shell
+mongodb://localhost:27017 
+show dbs
+use C00_Projecto
+show collections
+inserir linha 4
+db.Colaboradores.insertOne({
+  JobInvolvement: 2,
+  JobSatisfaction: 3,
+  EnvironmentSatisfaction: 4,
+  RelationshipSatisfaction: 2,
+  PerformanceRating: 3,
+  WorkLifeBalance: 3,
+  TrainingTimesLastYear: 3,
+  YearsInCurrentRole: 0,
+  YearsSinceLastPromotion: 0,
+  YearsWithCurrManager: 0
+});
+db.Colaboradores.find() 
+db.Colaboradores.insertMany([
+  {
+    JobInvolvement: 3,
+    JobSatisfaction: 3,
+    EnvironmentSatisfaction: 4,
+    RelationshipSatisfaction: 3,
+    PerformanceRating: 3,
+    WorkLifeBalance: 3,
+    TrainingTimesLastYear: 3,
+    YearsInCurrentRole: 7,
+    YearsSinceLastPromotion: 3,
+    YearsWithCurrManager: 0
+  },
+  {
+    JobInvolvement: 3,
+    JobSatisfaction: 2,
+    EnvironmentSatisfaction: 1,
+    RelationshipSatisfaction: 4,
+    PerformanceRating: 3,
+    WorkLifeBalance: 3,
+    TrainingTimesLastYear: 3,
+    YearsInCurrentRole: 2,
+    YearsSinceLastPromotion: 2,
+    YearsWithCurrManager: 2
+  }
+]);
+_________________________________________________
+Pesquisar colaboradores com alta satisfação no trabalho (JobSatisfaction >= 4):
+db.Colaboradores.find({ JobSatisfaction: { $gte: 4 } });
+Pesquisar colaboradores que trabalham há mais de 10 anos na empresa:
+db.Colaboradores.find({ YearsAtCompany: { $gt: 10 } });
+Pesquisar colaboradores que têm mais de 5 anos com o mesmo gestor:
+db.Colaboradores.find({ YearsWithCurrManager: { $gt: 5 } });
+Pesquisar colaboradores que receberam uma avaliação de desempenho máxima (PerformanceRating = 4):
+db.Colaboradores.find({ PerformanceRating: 4 });
+Pesquisar colaboradores que tiveram mais de 3 formações no último ano:
+db.Colaboradores.find({ TrainingTimesLastYear: { $gt: 3 } });
+Pesquisar colaboradores com equilíbrio entre vida pessoal e trabalho (WorkLifeBalance = 3 ou 4):
+db.Colaboradores.find({ WorkLifeBalance: { $in: [3, 4] } });
+Pesquisar colaboradores que mudaram de função recentemente (YearsInCurrentRole <= 1):
+db.Colaboradores.find({ YearsInCurrentRole: { $lte: 1 } });
+__________________________________________________________
+ Atualizar um documento exemplos:
+db.licenciamento.updateOne(
+  { nome: "Honda Civic" },
+  { $set: { tipo: "Honda Accord" } }
+)
+11. Apagar um documento
+db.licenciamento.deleteOne({ nome: "Joana" })
+12. Listar os documentos
+db.licenciamento.find().pretty()
+13. Apagar a coleção
+db.licenciamento.drop()
+14. Apagar a base de dados
+db.dropDatabase()
+______________________ 
+seleccionar colunas relacionadas ao desempenho dos colaboradores no excel:
+JobInvolvement, JobSatisfaction, EnvironmentSatisfaction, RelationshipSatisfaction, PerformanceRating, WorkLifeBalance, TrainingTimesLastYear, YearsInCurrentRole, YearsSinceLastPromotion, YearsWithCurrManager.
+save as .CSV (Comma Delimited) file
+ Importar os Dadosdo .csv no MongoDB Compass
+Na coleção colaboradores, clique em "Add Data" > "Import File".
+Escolha o arquivo .CSV gravado no excel
+Rec
