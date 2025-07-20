@@ -106,16 +106,30 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   </div>
 </div>
 
-## 📈 Análise em R
+## 📈 Documentos do Projeto
 
-Foi realizada uma análise estatística avançada utilizando a linguagem R, incluindo:
-- Análise exploratória de dados
-- Testes de hipóteses
-- Modelação preditiva
-- Visualizações estatísticas
-
-<div align="center">
-  <a href="Documentação/CA_AiDAPT01_P1_Analise_em_R.pdf" style="display: inline-block; background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">Ver Relatório Completo de Análise em R</a>
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 30px 0;">
+  <div style="flex: 0 0 45%; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+    <h3 align="center">📊 Apresentação PowerPoint</h3>
+    <div align="center">
+      <img src="https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" alt="PowerPoint" style="margin-bottom: 15px;" />
+      <p>Apresentação completa do projeto com resultados, gráficos e conclusões principais.</p>
+      <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pptx" style="display: inline-block; background-color: #B7472A; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">
+        <b>⬇️ Descarregar Apresentação</b>
+      </a>
+    </div>
+  </div>
+  
+  <div style="flex: 0 0 45%; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+    <h3 align="center">📑 Relatório de Análise em R</h3>
+    <div align="center">
+      <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" style="margin-bottom: 15px;" />
+      <p>Análise estatística avançada incluindo exploração de dados, testes de hipóteses, modelação preditiva e visualizações.</p>
+      <a href="Documentação/CA_AiDAPT01_P1_Analise_em_R.pdf" style="display: inline-block; background-color: #276DC3; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">
+        <b>📄 Ver Relatório Completo</b>
+      </a>
+    </div>
+  </div>
 </div>
 
 ## 🛠️ Tecnologias Utilizadas
