@@ -143,27 +143,27 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 20px 0;">
   <div style="text-align: center; margin: 10px;">
-    <span>
+    <a href="https://www.microsoft.com/sql-server" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
-    </span>
+    </a>
     <p>Armazenamento de Dados</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <span>
+    <a href="https://www.mongodb.com/" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-    </span>
+    </a>
     <p>Armazenamento NoSQL</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <span>
+    <a href="https://www.r-project.org/" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
-    </span>
+    </a>
     <p>Análise Estatística</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <span>
+    <a href="https://powerbi.microsoft.com/" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI" />
-    </span>
+    </a>
     <p>Visualização de Dados</p>
   </div>
 </div>
