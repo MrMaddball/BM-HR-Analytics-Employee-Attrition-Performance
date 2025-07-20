@@ -19,7 +19,9 @@ Este projeto de HR Analytics tem como objetivo analisar os fatores que influenci
 ## 📋 Estrutura do Projeto
 
 ### Dados
+
 O projeto utiliza um conjunto de dados de RH com informações sobre:
+
 - Dados demográficos dos funcionários
 - Histórico de desempenho
 - Satisfação no trabalho
@@ -89,6 +91,7 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
 </details>
 
 ### Transformação de Dados
+
 <div align="center">
   <img src="Imagens/CA_AiDAPT01_P1_Dados_Apos_Transformacoes.png" alt="Dados Após Transformações" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 100%;" />
 </div>
@@ -112,9 +115,11 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   <div style="flex: 0 0 45%; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
     <h3 align="center">📊 Apresentação PowerPoint</h3>
     <div align="center">
-      <img src="https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" alt="PowerPoint" style="margin-bottom: 15px;" />
+      <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pptx" download>
+        <img src="https://img.shields.io/badge/Microsoft_PowerPoint-B7472A?style=for-the-badge&logo=microsoft-powerpoint&logoColor=white" alt="PowerPoint" style="margin-bottom: 15px;" />
+      </a>
       <p>Apresentação completa do projeto com resultados, gráficos e conclusões principais.</p>
-      <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pptx" style="display: inline-block; background-color: #B7472A; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">
+      <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pptx" download style="display: inline-block; background-color: #B7472A; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">
         <b>⬇️ Descarregar Apresentação</b>
       </a>
     </div>
@@ -123,10 +128,12 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   <div style="flex: 0 0 45%; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
     <h3 align="center">📑 Relatório de Análise em R</h3>
     <div align="center">
-      <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" style="margin-bottom: 15px;" />
+      <a href="Documentação/CA_AiDAPT01_P1_Analise_em_R.pdf" download>
+        <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" style="margin-bottom: 15px;" />
+      </a>
       <p>Análise estatística avançada incluindo exploração de dados, testes de hipóteses, modelação preditiva e visualizações.</p>
-      <a href="Documentação/CA_AiDAPT01_P1_Analise_em_R.pdf" style="display: inline-block; background-color: #276DC3; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">
-        <b>📄 Ver Relatório Completo</b>
+      <a href="Documentação/CA_AiDAPT01_P1_Analise_em_R.pdf" download style="display: inline-block; background-color: #276DC3; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">
+        <b>📄 Descarregar Relatório Completo</b>
       </a>
     </div>
   </div>
@@ -136,19 +143,27 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
 
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin: 20px 0;">
   <div style="text-align: center; margin: 10px;">
-    <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+    <span>
+      <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+    </span>
     <p>Armazenamento de Dados</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    <span>
+      <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    </span>
     <p>Armazenamento NoSQL</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
+    <span>
+      <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" alt="R" />
+    </span>
     <p>Análise Estatística</p>
   </div>
   <div style="text-align: center; margin: 10px;">
-    <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI" />
+    <span>
+      <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI" />
+    </span>
     <p>Visualização de Dados</p>
   </div>
 </div>
