@@ -183,10 +183,14 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
         <li>Recomendações estratégicas</li>
         <li>Conclusões e próximos passos</li>
       </ul>
-      <p style="font-size: 0.8em; color: #666;"><em>Arquivo PowerPoint (5.9MB) - Descarregue para visualização completa</em></p>
-      <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pptx" download style="display: inline-block; background-color: #B7472A; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">
-        <b>⬇️ Descarregar Apresentação</b>
-      </a>
+      <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+        <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pdf" target="_blank" style="display: inline-block; background-color: #DC3545; color: white; padding: 8px 16px; text-align: center; text-decoration: none; border-radius: 5px; margin: 5px;">
+          <b>📄 Ver PDF</b>
+        </a>
+        <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pptx" download style="display: inline-block; background-color: #B7472A; color: white; padding: 8px 16px; text-align: center; text-decoration: none; border-radius: 5px; margin: 5px;">
+          <b>⬇️ Descarregar PPT</b>
+        </a>
+      </div>
     </div>
   </div>
   
