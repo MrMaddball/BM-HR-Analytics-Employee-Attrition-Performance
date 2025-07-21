@@ -171,9 +171,6 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   <div style="flex: 0 0 45%; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
     <h3 align="center">📊 Apresentação PowerPoint</h3>
     <div align="center">
-      <div style="border: 2px solid #ddd; border-radius: 8px; overflow: hidden; margin-bottom: 15px;">
-        <embed src="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pdf" type="application/pdf" width="100%" height="400px" style="border: none;" />
-      </div>
       <p><strong>Conteúdo da Apresentação:</strong></p>
       <ul style="text-align: left; font-size: 0.9em;">
         <li>Introdução ao projeto e objetivos</li>
@@ -197,9 +194,6 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   <div style="flex: 0 0 45%; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
     <h3 align="center">📑 Relatório de Análise em R</h3>
     <div align="center">
-      <div style="border: 2px solid #ddd; border-radius: 8px; overflow: hidden; margin-bottom: 15px;">
-        <embed src="Documentação/CA_AiDAPT01_P1_Analise_em_R.pdf" type="application/pdf" width="100%" height="400px" style="border: none;" />
-      </div>
       <p>Análise estatística avançada incluindo exploração de dados, testes de hipóteses, modelação preditiva e visualizações.</p>
       <a href="Documentação/CA_AiDAPT01_P1_Analise_em_R.pdf" target="_blank" style="display: inline-block; background-color: #276DC3; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 5px; margin: 10px 0;">
         <b>📄 Ver Relatório Completo</b>
