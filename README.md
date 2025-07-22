@@ -112,11 +112,11 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
 ### Consultas SQL
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
-  <div style="flex: 0 0 48%; margin-bottom: 20px;">
+  <div style="flex: 0 0 48%; margin-bottom: 20px; text-align: center;">
     <h4>Consulta 1</h4>
     <img src="Imagens/CA_AiDAPT01_P1_Script_SQL_Consulta_1.png" alt="Consulta SQL 1" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 100%;" />
   </div>
-  <div style="flex: 0 0 48%; margin-bottom: 20px;">
+  <div style="flex: 0 0 48%; margin-bottom: 20px; text-align: center;">
     <h4>Consulta 2</h4>
     <img src="Imagens/CA_AiDAPT01_P1_Script_SQL_Consulta_2.png" alt="Consulta SQL 2" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 100%;" />
   </div>
@@ -154,11 +154,11 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
 ## 📊 Visualizações e Dashboards
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 20px;">
-  <div style="flex: 0 0 48%; margin-bottom: 20px;">
+  <div style="flex: 0 0 48%; margin-bottom: 20px; text-align: center;">
     <h3 align="center">Dashboard Principal</h3>
     <img src="Imagens/CA_AiDAPT01_P1_Visualizacao_Dashboard_1.png" alt="Dashboard 1" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 100%;" />
   </div>
-  <div style="flex: 0 0 48%; margin-bottom: 20px;">
+  <div style="flex: 0 0 48%; margin-bottom: 20px; text-align: center;">
     <h3 align="center">Dashboard de Métricas Detalhadas</h3>
     <img src="Imagens/CA_AiDAPT01_P1_Visualizacao_Dashboard_2.png" alt="Dashboard 2" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-width: 100%;" />
   </div>
