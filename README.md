@@ -91,7 +91,7 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
 </div>
 </details>
 
-## � Metlodologia
+## 🔬 Metodologia
 
 <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; margin: 20px 0;">
   <p>Este projeto seguiu uma metodologia estruturada de análise de dados para recursos humanos:</p>
@@ -276,8 +276,6 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
     <li>Implementação de programas de reconhecimento e planos de carreira claros podem reduzir significativamente o atrito</li>
   </ul>
 </div>
-
-
 
 ## 📄 Licença
 
