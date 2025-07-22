@@ -235,6 +235,7 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
  ┃ ┗ 📜 CA_AiDAPT_Normalizacao_Final.xlsx
  ┣ 📂 Documentação
  ┃ ┣ 📜 CA_AiDAPT01_P1_Analise_em_R.pdf
+ ┃ ┣ 📜 CA_AiDAPT01_P1_Apresentacao_Final.pdf
  ┃ ┣ 📜 CA_AiDAPT01_P1_Apresentacao_Final.pptx
  ┃ ┗ 📜 CA_AiDAPT01_P1_ibm_hr_data.csv
  ┣ 📂 Imagens
