@@ -170,7 +170,6 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   <div style="flex: 0 0 45%; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
     <h3 align="center">📊 Apresentação PowerPoint</h3>
     <div align="center">
-
       <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
         <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pdf" target="_blank" style="display: inline-block; background-color: #DC3545; color: white; padding: 8px 16px; text-align: center; text-decoration: none; border-radius: 5px; margin: 5px;">
           <b>📄 Ver PDF Completo</b>
