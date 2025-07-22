@@ -24,7 +24,6 @@
 - [Estrutura de Diretórios](#-estrutura-de-diretórios)
 - [Como Utilizar](#-como-utilizar)
 - [Conclusões Principais](#-conclusões-principais)
-- [Equipa](#-equipa)
 - [Licença](#-licença)
 
 ## 📊 Sobre o Projeto
@@ -171,15 +170,7 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   <div style="flex: 0 0 45%; background-color: #f8f9fa; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
     <h3 align="center">📊 Apresentação PowerPoint</h3>
     <div align="center">
-      <p><strong>Conteúdo da Apresentação:</strong></p>
-      <ul style="text-align: left; font-size: 0.9em;">
-        <li>Introdução ao projeto e objetivos</li>
-        <li>Metodologia de análise aplicada</li>
-        <li>Principais descobertas e insights</li>
-        <li>Visualizações e dashboards</li>
-        <li>Recomendações estratégicas</li>
-        <li>Conclusões e próximos passos</li>
-      </ul>
+
       <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
         <a href="Documentação/CA_AiDAPT01_P1_Apresentacao_Final.pdf" target="_blank" style="display: inline-block; background-color: #DC3545; color: white; padding: 8px 16px; text-align: center; text-decoration: none; border-radius: 5px; margin: 5px;">
           <b>📄 Ver PDF Completo</b>
@@ -286,11 +277,7 @@ O projeto utiliza um conjunto de dados de RH com informações sobre:
   </ul>
 </div>
 
-## 👥 Equipa
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; text-align: center; margin: 20px 0;">
-  <p>Projeto desenvolvido como parte do curso AiDAPT01 - Grupo 03</p>
-</div>
 
 ## 📄 Licença
 
